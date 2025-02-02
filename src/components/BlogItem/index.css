@@ -16,8 +16,8 @@ header {
 
 /* Blog Item Form Container */
 .blog-container {
-    width: 100%;
-    max-width: 800px;
+    width: 90%;
+    max-width: 500px;
     margin: 20px auto;
     padding: 20px;
     background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0'); 
@@ -38,6 +38,7 @@ h1 {
 .form-container {
     display: flex;
     flex-direction: column;
+    width: 80%;
 }
 
 /* Form Groups */
