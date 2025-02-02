@@ -1,0 +1,46 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  background-image: url("https://i.postimg.cc/vm3hq4DS/DALL-E-2025-02-02-12-49-02-A-cinematic-background-with-elements-like-a-film-reel-clapperboard-an.webp");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.home-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0'); 
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 50%;
+}
+
+.header-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: rgb(255, 255, 255);
+}
+
+.header-desc{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: rgb(255, 255, 255);
+}
+
+.blog-btn {
+  padding: 0.5rem 1rem;
+  background-color: rgb(43, 104, 226);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 1rem;
+}

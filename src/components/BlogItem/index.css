@@ -1,0 +1,160 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Blog Item Form Container */
+.blog-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0'); 
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Form Container */
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Form Groups */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.labels {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.title,
+.content,
+.feedback,
+.experience {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Rating Stars */
+.rating {
+    display: flex;
+    justify-content: start;
+}
+
+.star {
+    font-size: 24px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.star.selected {
+    color: #ffdd00;
+}
+
+/* Media Queries for Mobile */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 22px;
+    }
+
+    .form-container {
+        padding: 10px;
+    }
+
+    .form-group {
+        margin-bottom: 12px;
+    }
+
+    .submit-button {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .rating {
+        font-size: 18px;
+    }
+
+    .title,
+    .content,
+    .feedback,
+    .experience {
+        font-size: 16px;
+        padding: 8px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 18px;
+    }
+
+    .form-container {
+        padding: 5px;
+    }
+
+    .form-group {
+        margin-bottom: 10px;
+    }
+
+    .title,
+    .content,
+    .feedback,
+    .experience {
+        font-size: 14px;
+        padding: 6px;
+    }
+
+    .submit-button {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .rating {
+        font-size: 16px;
+    }
+}
