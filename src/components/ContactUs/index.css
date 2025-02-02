@@ -84,3 +84,28 @@
     border-radius: 5px;
     text-align: center;
 }
+/* Responsive design for mobile screens */
+@media (max-width: 600px) {
+    .contact-container {
+        padding: 15px;
+    }
+
+    .contact-container h2 {
+        font-size: 2em;
+    }
+
+    .form-group label {
+        font-size: 1em;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        font-size: 0.9em;
+        padding: 8px;
+    }
+
+    .submit-btn {
+        padding: 10px;
+        font-size: 1em;
+    }
+}

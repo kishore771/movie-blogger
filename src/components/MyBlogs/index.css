@@ -73,3 +73,35 @@
     color: #333;
     text-align: center;
 }
+
+/* Mobile screen layout */
+@media (max-width: 600px) {
+    .blog-container {
+        padding: 15px;
+        margin: 20px auto;
+    }
+
+    .header-title {
+        font-size: 2em;
+    }
+
+    .blog-card {
+        padding: 15px;
+    }
+
+    .blog-title {
+        font-size: 20px;
+    }
+
+    .blog-content, .blog-feedback, .blog-experience, .blog-rating {
+        font-size: 14px;
+    }
+
+    .star {
+        font-size: 25px;
+    }
+
+    .desc {
+        font-size: 1.2em;
+    }
+}
