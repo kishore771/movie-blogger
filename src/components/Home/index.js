@@ -13,9 +13,11 @@ const Home = () => {
          <Header />
         <div className="home-container">
             <div className="home-card">
+                <div className='card-content'>
             <h1 className='header-title'>Welcome to Movie Blogger</h1>
             <p className='header-desc'>Your source for the latest movie reviews and news.</p>
             <button onClick={handleButtonClick} className='blog-btn'>Create your Blog</button>
+            </div>
         </div>  
         </div>
         </>

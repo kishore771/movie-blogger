@@ -19,7 +19,16 @@
   color: white;
   padding: 20px;
   border-radius: 10px;
-  width: 50%;
+  width: 60%;
+  height: 50%;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .header-title {
@@ -43,6 +52,8 @@
   cursor: pointer;
   font-size: 1rem;
   margin-top: 1rem;
+  width: 200px;
+  height: 50px;
 }
 
 @media (max-width: 768px) {

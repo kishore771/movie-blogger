@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 15px 20px;
-    background-image: linear-gradient(rgba(2, 25, 57, 0.844), rgba(4, 9, 69, 0.86)); 
+    background-image: linear-gradient(to right, #f28b42, #eb3737); 
     background-size: cover;
     background-position: center;
     color: white;

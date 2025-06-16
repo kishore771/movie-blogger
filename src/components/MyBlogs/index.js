@@ -22,7 +22,7 @@ const MyBlogs = () => {
         <>
             <Header />
             <div className="my-blogs-container">
-                <h1 className='header-title'>My Movie Blogs</h1>
+                <h1 className='page-title'>My Movie Blogs</h1>
                 <div className="blogs-list">
                     {blogs.length > 0 ? (
                         blogs.map((blog, index) => (

@@ -54,6 +54,7 @@ const ContactUs = () => {
     <>
     <Header />
     <div className="contact-container">
+      <div className="contact-card">
       <h2>Contact Me</h2>
         <p>Feel free to reach out to me with any questions or opportunities.</p>
         {submitted && <p className='success-message'>Thank you for your message. I'll get back to you soon.</p>}
@@ -95,6 +96,7 @@ const ContactUs = () => {
         </div>
         <button type="submit" className="submit-btn">Send Message</button>
       </form>
+      </div>
     </div>
     </>
   );
